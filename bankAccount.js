@@ -2,7 +2,7 @@
 
 export default BankAccount
 
-class Bank Account{
+class bankAccount {
     constructor(password, accountNumber, accountHolder, balance=0){
     this.password=password;
     this.accountNumber=accountNumber;
