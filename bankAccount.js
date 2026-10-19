@@ -28,7 +28,7 @@ class bankAccount {
 
 //Withdraw
     withdraw(amount){
-        if(amount)>this.balance){
+        if(amount >this.balance){
         console.log("You have Insufficient funds");
         }else{
         this.balance-=amount;
