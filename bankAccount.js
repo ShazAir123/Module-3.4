@@ -1,6 +1,6 @@
 //Bank Statement export
 
-export default BankAccount
+export default bankAccount
 
 class bankAccount {
     constructor(password, accountNumber, accountHolder, balance=0){
