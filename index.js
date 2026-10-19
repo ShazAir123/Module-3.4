@@ -1,8 +1,8 @@
-import BankAccount from './bankAccount.js';
+import bankAccount from './bankAccount.js';
 
 //Create instances of Bank Account
-const account1=new BankAccount(5555, 12345, "Jane Monroe", 5000);
-const account2=new BankAccount(1111, 54321, "David Gee", 2000);
+const account1=new bankAccount(5555, 12345, "Jane Monroe", 5000);
+const account2=new bankAccount(1111, 54321, "David Gee", 2000);
 
 //Authenticate
 account1.password;
